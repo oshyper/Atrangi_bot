@@ -5,7 +5,7 @@ from aiogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, W
 from app.config import BOT_TOKEN, APP_URL, BACKUP_CHANNEL_URL, MAIN_CHANNEL_ID, ADMIN_IDS
 from app.db import init_db, upsert_user, add_post, latest_message_id, user_count
 
-bot = Bot(BOT_TOKEN)
+bot = Bot(8656736053:AAET1pZpa9lbfNGe_SFFbiSAw-L1riUUZ54)
 dp = Dispatcher()
 
 def main_keyboard():
