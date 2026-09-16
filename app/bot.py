@@ -11,7 +11,7 @@ dp = Dispatcher()
 def main_keyboard():
     return InlineKeyboardMarkup(inline_keyboard=[
         [InlineKeyboardButton(text="📱 Open Channel", web_app=WebAppInfo(url=APP_URL))],
-        [InlineKeyboardButton(text="📢 Backup Channel", url=BACKUP_CHANNEL_URL)]
+        [InlineKeyboardButton(text="📢 Backup Channel", url=https://t.me/Atrangii_re_new)]
     ])
 
 @dp.message(CommandStart())
@@ -34,7 +34,7 @@ async def stats(message: Message):
 @dp.channel_post()
 async def channel_post(message: Message):
     # Add the bot as an administrator to your main channel first.
-    if MAIN_CHANNEL_ID and str(message.chat.id) != str(MAIN_CHANNEL_ID):
+    if MAIN_CHANNEL_ID and str(message.chat.id) != str(1563070778):
         return
 
     text = message.text or ""
