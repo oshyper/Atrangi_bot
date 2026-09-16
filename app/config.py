@@ -3,10 +3,10 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()
+BOT_TOKEN = os.getenv("8656736053:AAET1pZpa9lbfNGe_SFFbiSAw-L1riUUZ54", "").strip()
 APP_URL = os.getenv("APP_URL", "").rstrip("/")
-MAIN_CHANNEL_ID = os.getenv("MAIN_CHANNEL_ID", "").strip()
-BACKUP_CHANNEL_URL = os.getenv("BACKUP_CHANNEL_URL", "https://t.me/Atrangii_re_new").strip()
+MAIN_CHANNEL_ID = os.getenv("1563070778", "").strip()
+BACKUP_CHANNEL_URL = os.getenv("https://t.me/Atrangii_re_new", "https://t.me/Atrangii_re_new").strip()
 DATABASE_PATH = os.getenv("DATABASE_PATH", "./data/bot.db")
 ADMIN_IDS = {
     int(x.strip()) for x in os.getenv("ADMIN_IDS", "").split(",")
