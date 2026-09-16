@@ -8,9 +8,9 @@ This version is designed for ONE Railway service running both the Telegram bot a
 2. Railway -> New Project -> Deploy from GitHub Repo.
 3. Select the repository. Railway detects the Dockerfile and builds it.
 4. In the service Variables tab, add:
-   - BOT_TOKEN = your @BotFather token
+   - BOT_TOKEN = 8656736053:AAET1pZpa9lbfNGe_SFFbiSAw-L1riUUZ54
    - APP_URL = the HTTPS Railway domain you will generate
-   - MAIN_CHANNEL_ID = your main channel numeric ID
+   - MAIN_CHANNEL_ID = 1563070778
    - BACKUP_CHANNEL_URL = https://t.me/Atrangii_re_new
    - ADMIN_IDS = your Telegram numeric ID (optional)
    - DATABASE_PATH = /app/data/bot.db
